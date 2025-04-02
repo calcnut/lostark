@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Калькулятор крафта орехов - Lost Ark</title>
+    <title>Калькулятор крафта Авидорских кристаллов судьбы - Lost Ark</title>
     <style>
         /* Базовые стили */
         * {
@@ -650,7 +650,7 @@
                     },
                     {
                         name: "Белые + зелёные",
-                        description: "Только белые обменяны на синие",
+                        description: "Только белые обмениваются на синие",
                         calculate: function() {
                             const totalWhite = resourcesPer10.white + 
                                             resourcesPer10.blue * exchangeRates.whiteToBlue;
@@ -861,7 +861,7 @@
                     </div>
                     <div style="margin-top: 15px;">
                         <strong>Общая стоимость:</strong> ${bestOption.cost.toFixed(2)} золота<br>
-                        <strong>Выгода после продажи (5% комиссия):</strong> ${bestOption.profit.toFixed(2)} золота
+                        <strong>Выгода для продажи (5% комиссия):</strong> ${bestOption.profit.toFixed(2)} золота
                     </div>
                 </div>
             `;
